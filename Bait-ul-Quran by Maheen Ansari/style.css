@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #deede9;
+    color: #333;
+    scroll-behavior: smooth;
+}
+header {
+    position: relative;
+    height: 500px;
+     background: url('kilic-emre-akdag-tE8l9d7ZDLY-unsplash.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+   
+    z-index: 1;
+}
+.header-text {
+    position: relative;
+    z-index: 2;
+}
+h1 {
+    transition: all 0.3s ease-in-out;
+}
+h1:hover {
+    transform: scale(1.05);
+    color: #ffffff;
+}
+.experience, .offer, .quotes, .salah {
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.card {
+    background-color: #e6f4ea;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.salah-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #006400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.salah-btn:hover {
+    background-color: #043f04;
+}
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+    border-left: 5px solid #ccc;
+    padding-left: 15px;
+}
+.classes-section {
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent */
+  text-align: center;
+  border-radius: 15px;
+  margin: 40px 0;
+}
+
+.join-buttons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.join-buttons button {
+  background-color: #1a81d6;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-buttons button:hover {
+  background-color: #98e4f7;
+}
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #f1c40f;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(14, 14, 14, 0.4);
+}
+
+.contact-btn:hover {
+    background-color: #d4ac0d;
+    box-shadow: 0 6px 12px rgba(10, 10, 10, 0.7);
+    transform: scale(1.05);
+}
+
